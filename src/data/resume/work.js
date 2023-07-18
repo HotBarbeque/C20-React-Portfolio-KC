@@ -51,7 +51,7 @@ const work = [
   {
     name: 'La Hacienda Rehabilitation and Healthcare Center',
     position: 'Certified Nursing Assistant',
-    url: 'www.senior-care-centers.com',
+    url: 'http://ww1.senior-care-centers.com/',
     startDate: '2013-06-01',
     endDate: '2014-08-01',
     // summary: ``,
