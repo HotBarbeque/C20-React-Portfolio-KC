@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`https://hotbarbeque.github.io/C20-React-Portfolio-KC/images/me.png`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
         <h2>Kyle Curry</h2>
