@@ -20,28 +20,37 @@ const sections = {
   References: () => <References />,
 };
 
-const Resume = () => (
-  <Main
-    title="Resume"
-    description="Kyle Curry's Resume."
-  >
-    <article className="post" id="resume">
-      <header>
-        <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+const Resume = () => {
+  const resumePdfUrl = '/resume.pdf';
+
+  return (
+    <Main
+      title="Resume"
+      description="Kyle Curry's Resume."
+    >
+      <article className="post" id="resume">
+        <header>
+          <div className="title">
+            <h2>
+              <a href={resumePdfUrl} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+            </h2>
+            <div className="link-container">
+              {Object.keys(sections).map((sec) => (
+                <h4 key={sec}>
+                  <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                </h4>
+              ))}
+            </div>
           </div>
-        </div>
-      </header>
-      {Object.entries(sections).map(([name, Section]) => (
-        <Section key={name} />
-      ))}
-    </article>
-  </Main>
-);
+        </header>
+        {Object.entries(sections).map(([name, Section]) => (
+          <Section key={name} />
+        ))}
+      </article>
+    </Main>
+  );
+};
 
 export default Resume;
