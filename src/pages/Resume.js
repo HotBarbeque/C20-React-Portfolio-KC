@@ -33,7 +33,7 @@ const Resume = () => {
           <div className="title">
             <h2>
               <a href={resumePdfUrl} target="_blank" rel="noopener noreferrer">
-                Resume
+                Resume Download
               </a>
             </h2>
             <div className="link-container">
