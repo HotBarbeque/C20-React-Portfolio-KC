@@ -21,7 +21,7 @@ const sections = {
 };
 
 const Resume = () => {
-  const resumePdfUrl = 'https://hotbarbeque.github.io/C20-React-Portfolio-KC/images/resume.pdf';
+  const resumePdfUrl = 'https://maroon-dari-71.tiiny.site/';
 
   return (
     <Main
