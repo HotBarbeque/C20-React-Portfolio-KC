@@ -21,7 +21,7 @@ const sections = {
 };
 
 const Resume = () => {
-  const resumePdfUrl = '/resume.pdf';
+  const resumePdfUrl = 'https://hotbarbeque.github.io/C20-React-Portfolio-KC/images/resume.pdf';
 
   return (
     <Main
