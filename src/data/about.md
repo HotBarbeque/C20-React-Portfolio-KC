@@ -28,7 +28,7 @@
 
 - I love plants! I have over 70 house plants across various species.
 - I love Halloween! Me and my wife always throw the best Spooky season party every year.
-- I have always been a tinkerer. My father was a jack of all trades electrian, and I have always been fascinated with how things work.
+- I have always been a tinkerer. My father was a jack of all trades electrician, and I have always been fascinated with how things work.
 
 # I dream of
 
