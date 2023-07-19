@@ -8,14 +8,22 @@ This is my portfolio built with React. It contains a brief bio, my projects, and
 
 ## Table of Contents
 
+- [Screenshot](#Screenshot)
+- [Deployed Application](#Deployed-Application)
 - [Installation](#Installation)
 - [License](#License)
 - [Questions](#Questions)
 
+## Screenshot
+![screenshot of application](./public/images/screenshot.PNG)
+
+## Deployed Application
+https://hotbarbeque.github.io/C20-React-Portfolio-KC/
+
 ## Installation
 <br>To get this app to work:</br>
 <br>Clone this repo.</br>
-<br>`npm i && npm start`</br>
+<br>Then open the integrated terminal and enter `npm i && npm start`</br>
 
 ## License
 
