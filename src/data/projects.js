@@ -16,12 +16,12 @@ const data = [
     desc: 'Book Management System allows users to keep track of their personal book collection. The application will provide a user-friendly interface for managing books, including adding new books, updating book details, and viewing the book collection.',
   },
   {
-    title: 'Project 3',
+    title: 'The Mash Up',
     subtitle: 'Full Stack Bootcamp Group 3 Project.',
-    link: '',
-    image: '/images/projects/ComingSoon.png',
+    link: 'https://the-mash-up-b8a52234a88b.herokuapp.com/',
+    image: '/images/projects/themashup.png',
     date: '2023-08-08',
-    desc: 'Coming Soon',
+    desc: 'The Mash Up is an e-commerce application that allows users to sign up, login, shop for music related products, add them to their cart, and checkout. As well as post user generated items for sale. The application is built using React, Vite, Apollo Server, and GraphQL.',
   },
   {
     title: 'Tech Blog',
